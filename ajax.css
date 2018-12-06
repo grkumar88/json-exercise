@@ -1,0 +1,23 @@
+.json{
+text-align: center;
+border: 1px solid #060709;
+margin-left: 100px;
+}
+.thead,.rhead{
+	text-align:center;
+	text-transform: uppercase;
+	color: #D4AF37;
+	background-color: #800080;
+	padding: 10px;
+}
+.rhead{
+	text-align:center;
+	text-transform: uppercase;
+	color: #2A2927;
+	background-color: #FCCF0D;
+
+}
+.chead{
+	color:  #989479;
+	background-color:#2E3268;
+}

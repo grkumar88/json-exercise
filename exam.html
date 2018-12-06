@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<table border=1>
+		<tr>
+			<th colspan=2 style="color:white;background-color:blue;">User Deatails</th>
+		</tr>
+		<tr>
+			<th style="color:yellow;background-color:green;"> Name</th>
+			<td id="raj"></td>
+		</tr>
+		<tr>
+			<th style="color:blue;background-color:white;"> Age</th>
+			<td id="ram"></td>
+		</tr>
+		<tr>
+			<th style="color:yellow;background-color:green;"> Cars</th>
+			<td id="lak"></td>
+		</tr>
+	</table>
+
+	<script>
+
+		var myObj;
+		myObj = {
+			"name":"John",
+			"age":30,
+			"cars":[ "Ford", "BMW", "Fiat" ]
+		};
+		x = myObj.name;
+		y= myObj.age;
+		z= myObj.cars[0];
+		document.getElementById("raj").innerHTML = x;
+		document.getElementById("ram").innerHTML = y;
+		document.getElementById("lak").innerHTML =z;
+
+	</script>
+
+</body>
+</html>
